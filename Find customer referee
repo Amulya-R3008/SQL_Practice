@@ -52,5 +52,5 @@ solun:-
 first approach:
 select name from Customer where referee_id !=2 or referee_id is null;
 
-second approach:
+second approach:This doesn't work for all if referee id is 12 it wont come because all 2 contained won't display
 select name from Customer where referee_id not like "%2" or referee_id is null; 
